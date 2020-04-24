@@ -17,11 +17,12 @@
  *
  */
 
-#ifndef __STATS_H__
-#define __STATS_H__
+#ifndef stats_h
+#define stats_h
 
 
-void print_statistics(int min, int max, float mea, float med);
+void print_statistics(unsigned char arr[], int min, int max, 
+		      float mea, float med);
 /* 
  * @breif Prints statistics of the array and the values 
  *        calculated.
@@ -101,5 +102,5 @@ void sort_array(unsigned char arr[], int length);
  *
  */
 
-endif /* __STATS_H__*/
+#endif /* stats_h*/
 
